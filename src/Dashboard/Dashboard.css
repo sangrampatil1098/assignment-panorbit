@@ -1,0 +1,52 @@
+.user-list-header {
+  padding: 20px;
+  background-color: #f0f8ff;
+  margin: 0;
+  position: sticky;
+}
+
+.user-list-box {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  background-color: aqua;
+  border-radius: 10px;
+  overflow-y: scroll;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.users-list {
+  height: 18px;
+  margin: 17px;
+  position: relative;
+  border-bottom: 20x solid black;
+  cursor: pointer;
+}
+
+.user-list-box2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  border-bottom: 2px solid black;
+}
+
+.user-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.links {
+  text-decoration: none;
+  color: inherit;
+}

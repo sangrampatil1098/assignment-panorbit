@@ -1,0 +1,268 @@
+.userimg {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.navbar-box {
+  top: 20px;
+  width: 1100px;
+  height: 80px;
+  position: relative;
+  left: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(153, 143, 143);
+  font-family: "Source Sans Pro", sans-serif;
+}
+.navbar-left {
+  position: absolute;
+  left: 0;
+  margin-left: 15px;
+}
+.navbar-right-box {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 9px;
+}
+
+.user-data-left {
+  width: 301px;
+  height: 700px;
+  position: relative;
+  background-color: rgb(21, 106, 185);
+  border-radius: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.user-options-list {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.user-options-list-items {
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: white;
+}
+.user-data {
+  position: relative;
+}
+.user-data-middle {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  color: brown;
+  position: absolute;
+  left: 300px;
+  top: 130px;
+  border-right: 2px solid rgb(153, 143, 143);
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+}
+.user-info {
+  width: 400px;
+  height: 400px;
+  border-bottom: 2px solid rgb(153, 143, 143);
+}
+.company-info {
+  width: 400px;
+  height: 200px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+}
+
+.user-pf {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.user-middle-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-middle-data-info p {
+  text-align: center;
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+}
+.user-data-right {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  right: 150px;
+  top: 150px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+}
+.address-info {
+  margin-left: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+}
+
+.userinfosec {
+  width: 320px;
+  height: 420px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  background-color: hsl(0, 0%, 100%);
+  top: 64px;
+  right: -3px;
+  z-index: 10;
+  border-radius: 20px;
+}
+
+.item-pf {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 13px;
+}
+.userinfosecbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: rgba(34, 26, 26, 0.829);
+}
+.userinfoitem {
+  padding: 0px;
+  height: 42px;
+  width: 109px;
+  text-align: center;
+}
+
+.pf {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.userpf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(200, 17, 17);
+  border-radius: 15px;
+  position: absolute;
+  left: 116px;
+  margin: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.chatbox {
+  width: 229px;
+  height: 55px;
+  position: absolute;
+  bottom: -84px;
+  right: 110px;
+  background-color: rgb(83, 83, 214);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+}
+
+.arrow {
+  position: absolute;
+  top: 7px;
+  right: 20px;
+  cursor: pointer;
+}
+.chatsymbol {
+  position: absolute;
+  top: 7px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.chattext {
+  position: absolute;
+  top: 8px;
+  left: 50px;
+  cursor: pointer;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+}
+
+.chatlist {
+  width: 229px;
+  height: 600px;
+  position: absolute;
+  bottom: -84px;
+  right: 110px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  transition: height 2s;
+  background-color: rgba(234, 230, 225, 0.977);
+  transition: height 2s;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+}
+.chatbox2 {
+  background-color: rgb(83, 83, 214);
+  width: 229px;
+  height: 55px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+}
+
+.chatusers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(13, 1, 1);
+}
+
+.chatusersbox {
+  overflow-y: scroll;
+}
+
+.messages {
+  width: 260px;
+  height: 300px;
+  background-color: rgba(234, 230, 225, 0.977);
+  position: absolute;
+  bottom: -84px;
+  right: 361px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.chatnavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(83, 83, 214);
+  flex-direction: row;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+}
