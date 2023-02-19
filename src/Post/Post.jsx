@@ -191,7 +191,23 @@ function Post() {
               }}
             >
               <div style={{ borderBottom: "2px solid white", width: "190px" }}>
-                <li className="user-options-list-items">Posts</li>
+                <li className="user-options-list-items">
+                  Posts
+                  <ArrowForwardIosIcon
+                    style={{
+                      position: "absolute",
+                      right: "0",
+                      color: "rgb(136,136,136)",
+                      backgroundColor: "white",
+                      right: "-76px",
+                      padding: "3px",
+                      borderTopLeftRadius: "10px",
+                      borderBottomLeftRadius: "10px",
+                    }}
+                  >
+                    {" "}
+                  </ArrowForwardIosIcon>
+                </li>
               </div>
             </Link>
             <Link
@@ -215,23 +231,7 @@ function Post() {
               }}
             >
               <div style={{ borderBottom: "2px solid white", width: "190px" }}>
-                <li className="user-options-list-items">
-                  ToDo
-                  <ArrowForwardIosIcon
-                    style={{
-                      position: "absolute",
-                      right: "0",
-                      color: "rgb(136,136,136)",
-                      backgroundColor: "white",
-                      right: "-76px",
-                      padding: "3px",
-                      borderTopLeftRadius: "10px",
-                      borderBottomLeftRadius: "10px",
-                    }}
-                  >
-                    {" "}
-                  </ArrowForwardIosIcon>
-                </li>
+                <li className="user-options-list-items">ToDo</li>
               </div>
             </Link>
           </ul>

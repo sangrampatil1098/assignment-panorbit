@@ -203,20 +203,8 @@ function Gallery() {
               }}
             >
               <div style={{ borderBottom: "2px solid white", width: "190px" }}>
-                <li className="user-options-list-items">Gallery</li>
-              </div>
-            </Link>
-            <Link
-              to="/todo"
-              style={{
-                textDecoration: "none",
-                color: "White",
-                listStyleType: "none",
-              }}
-            >
-              <div style={{ borderBottom: "2px solid white", width: "190px" }}>
                 <li className="user-options-list-items">
-                  ToDo
+                  Gallery
                   <ArrowForwardIosIcon
                     style={{
                       position: "absolute",
@@ -231,6 +219,18 @@ function Gallery() {
                     {" "}
                   </ArrowForwardIosIcon>
                 </li>
+              </div>
+            </Link>
+            <Link
+              to="/todo"
+              style={{
+                textDecoration: "none",
+                color: "White",
+                listStyleType: "none",
+              }}
+            >
+              <div style={{ borderBottom: "2px solid white", width: "190px" }}>
+                <li className="user-options-list-items">ToDo</li>
               </div>
             </Link>
           </ul>
